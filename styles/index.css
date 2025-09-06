@@ -1,0 +1,57 @@
+body{
+    background: radial-gradient(circle at center, rgb(255, 240, 240), rgb(242, 206, 214));
+
+    margin:0;
+}
+
+#listas-opcionales{
+    
+    display: flex;           /* Habilita Flexbox para el contenedor */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  list-style: none;        /* Opcional: para quitar los marcadores de lista */
+  padding: 0;
+    border: 1px solid; 
+   
+border-radius: 30%;
+}
+
+.lista-seleccion{
+     margin: 0 10px;
+     
+    
+}
+
+#header-principal{
+   
+    background: radial-gradient(circle at center, rgb(245, 159, 182), rgb(225, 4, 63));
+
+}
+
+
+.foto-perfil {
+    border-radius: 100px;  
+    height: 10%;
+    width: 10%;
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+.mi-nombre{
+    text-align: center;
+}
+
+.imagen-cursos-realizados{
+    /* padding: 10px; */
+    /* margin:10%; */
+    width: 50px;
+
+}
+
+#aside-perfil{
+    background-color: aliceblue;
+}
+
+#aside-contactos{
+    background-color: aliceblue;
+}
