@@ -4,90 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Nova+Mono&family=VT323&display=swap" rel="stylesheet">
+
     <title>Portafolio-Helen</title>
 </head>
 <body>
    <header id="header-principal">
-        <section> 
-            <img class="foto-perfil" src="fotoPerfil.jpg" alt="foto-perfil">
-            <h1 class= "mi-nombre"href="#">Helen Noemi Suarez Orrala</h1>
-        </section>
-         
-        <ul id="listas-opcionales">
-            
-            <li class="lista-seleccion"><a href="#perfil-description">perfil</a></li>
-            <li class="lista-seleccion"><a href="#habilidades-description">sobre mis habilidades</a></li>
-            <li class="lista-seleccion"><a href="#proyectos-description">proyectos</a></li>
-            <li class="lista-seleccion"><a href="#estudios-description">estudios</a></li>
-            <li class="lista-seleccion"><a href="#contacto-description">contacto</a></li>  
-        </ul>
+        <nav class="header-nav">
+
+
+            <a class="item-Link" href="#" id="Nombre-De-la-creadora"><h1>Mi sitio</h1></a>
+              
+            <button id="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+
+            <ul id="listas-opcionales" class="listas-opcionales">
+                <li ><a class="item-Link" href="#perfil">Sobre mi</a></li>
+                <li ><a class="item-Link" href="#habilidades">Habilidades</a></li>
+                <li ><a class="item-Link" href="#proyectos">Proyectos</a></li>
+                <li ><a class="item-Link" href="#contacto">Contacto</a></li>  
+            </ul>
+        </nav>
+        
     </header>
         
-    <main>
-        <aside id="aside-perfil" >
-            <section id="perfil-description">
-                <h2>Perfil</h2>
+    <main id="main">
+        
+        <aside id="perfil" class="aside-perfil">
+            <nav class="nav-perfil">
+                <section class="seccion-sobremi" class="seccion-perfil">
+                    <h1 class="h1-full">Full-Stack Developer</h1>
+                    <article class="article-nombre">
+                         <h3 class="Nombre-titulo">Helen Noemí Suarez Orrala</h3>
+                        <h5 class="Nombre-titulo">Ing. Sistemas Computacionales</h5>
+                    </article>
+                
+                    <h1>Sobre mi</h1>
                     <p>
-                        soy helen, me desempeño actualmente preparandome como desarrolladora de software.
+                        Hola, soy Helen me considero una persona proactiva, organizada, rápida en aprender y responsable. Se trabajar en equipo. Actualmente me desempeño pequeños trabajos de software.
                     </p>
-            </section>
-            <section>
-                <button>
-                    <a href="https://github.com/Noemi2022" target="_blank" rel="noopener noreferrer">GitHub</a>
-                </button>
-                <button>
-                    <a href="https://www.linkedin.com/in/helen-su%C3%A1rez-orrala-635ba2274/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                </button>
-            </section>
-        </aside>
-        <aside>
-            <section id="estudios-description">
-                <h2>
-                    Prepacion Academica
 
-                </h2>
                 
-                <ul>
-                    <li>Universidad de Guayaquil</li>
-                    <li>Colegio Augusto Mendoza Moreira</li>
-                </ul>
-                <h2>Cursos realizados</h2>
-                <ul>
-                    <li>html</li>
-                    <img class="imagen-cursos-realizados" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="imagen html">
-                    <li>Css</li>
-                    <img class="imagen-cursos-realizados" src="https://ralfvanveen.com/wp-content/uploads/2021/06/CSS-_-Begrippenlijst.webp" alt="imagen css">
-                    <li>Javascript</li>
-                    <li>SQL Server</li>
-                    <li>GitHub</li>
-                    <li>.Net Core</li>
-                </ul>
+                    <button class="btn">
+                        <a class="item-Link" href="https://github.com/Noemi2022" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </button>
+                    <button class="btn">
+                        <a class="item-Link" href="https://www.linkedin.com/in/helen-su%C3%A1rez-orrala-635ba2274/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </button>
+                </section>
                 
-            </section>
+                <section class="seccion-imagen" class="seccion-perfil"> 
+                    <img class="foto-perfil" src="fotoPerfil.jpg" alt="foto-perfil">
+                </section>
+            </nav>
         </aside>
 
-        <aside>    
-            <section id="habilidades-description">
-                <h2>Habilidades</h2>
-            </section>
+        
+
+        <aside id="habilidades" class="aside-Habilidades">  
+            
+            <h1 class="h1-Habilidades">Habilidades</h1> 
+            
+                <section id="habilidades-tecnicas">
+                    <h2 >Habilidades Tecnicas</h2>
+                    <div class="div-habilidades" >
+                        <nav class="item">
+                            <h3>FrontEnd</h3>
+                            <ul>
+                            <li>html</li>
+                            <img class="imagen-cursos-realizados" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="imagen html">
+                            <li>CSS</li>
+                            <img class="imagen-cursos-realizados" src="https://ralfvanveen.com/wp-content/uploads/2021/06/CSS-_-Begrippenlijst.webp" alt="imagen css">
+                            <li>JavaScript</li>
+                            </ul>
+                        </nav>
+
+                        <nav class="item">
+                            <h3>BackEnd</h3>
+                            <ul>
+                            <li>Sql Server</li>
+                            <li>.Net Core</li>
+                            <li>C#</li>
+                            </ul>
+                        </nav>
+
+                        <nav class="item">
+                            <h3>Control de versiones</h3>
+                            <ul>
+                            <li>GitHub</li>
+                            <li>Git</li>
+                            </ul>
+                        </nav>
+                        
+                    </div>
+                  
+                </section>
+                <section id="habilidades-blandas">
+                    <h2>Habilidades Blandas</h2>
+                        <nav>
+                            <ul>
+                                <li>Trabajo en Equipo</li>
+                                <li>Pensamiento Analitico</li>
+                                <li>Facilidad y gusto para la investigación</li>
+                            </ul>
+                        </nav>
+                </section>
         </aside>
-        <aside>
-            <section id="proyectos-description">
-                <h2>Proyectos</h2>
-            </section>
+
+        <aside id="proyectos" class="aside-proyectos">
+
+            <nav>
+                <h1 class="h1-proyecto">Proyectos</h1>
+                <ul>
+                    <li>proyecto 1</li>
+                    <li>proyecto 2</li>
+                    <li>proyecto 3</li>
+                </ul>
+            </nav>
         </aside>
+        
     </main>
     
         
     
-    <footer>
-        <aside id="aside-contactos">
-            <span id="contacto-description">
-                <h2>Contacto</h2>
-                
-                <p>Telefono: 0990280079</p>
-                <p>Correo: helen.orrala16@gmail.com</p>
-            </span>
+    <footer class="footer">
+        <aside id="contacto">
+
+        
+        <p>Helen Suarez. 2025</p>
+       
+        
+        <span class="created-by">Created by
+            <a
+            class="created-by-author"
+            href="https://github.com/Noemi2022/Portafolio.git"
+            target="_blank"
+            >Noemi2022</a>
+        </span>
+
+        <span class="created-by">Source:
+            <a
+            class="created-by-author"
+            href="https://github.com/Noemi2022"
+            target="_blank"
+            >Github</a>
+        </span>
         </aside>
     </footer>
 

@@ -9,3 +9,12 @@ function getProfile() {
         console.log(json.avatar_url)
     })
 }
+
+
+
+const toggleButton = document.getElementById('menu-toggle');
+  const menu = document.getElementById('listas-opcionales');
+
+  toggleButton.addEventListener('click', () => {
+    menu.classList.toggle('show');
+  });
