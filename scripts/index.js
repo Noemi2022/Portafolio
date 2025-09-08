@@ -12,9 +12,9 @@ function getProfile() {
 
 
 
-const toggleButton = document.getElementById('menu-toggle');
-  const menu = document.getElementById('listas-opcionales');
+// const toggleButton = document.getElementById('menu-toggle');
+//   const menu = document.getElementById('listas-opcionales');
 
-  toggleButton.addEventListener('click', () => {
-    menu.classList.toggle('show');
-  });
+//   toggleButton.addEventListener('click', () => {
+//     menu.classList.toggle('show');
+//   });
