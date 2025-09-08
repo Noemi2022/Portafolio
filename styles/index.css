@@ -122,18 +122,10 @@ body{
     
 }
 .nav-perfil{
-     /* padding: 1px;  
-    display: flex;   
-   flex-direction:row; 
-   align-items: center; 
-   gap: 40px; 
-   flex-wrap: wrap;
-
-   margin-top: 10px; Evita que se oculte bajo el header */
 background: linear-gradient(to right,#FFFFFF , #F5B7B1, #883333);
 border-radius: 30px;
 display: flex;
-  flex-wrap: wrap;        /* Permite que los elementos bajen si no hay espacio */
+  flex-wrap: wrap;       
   justify-content: center;
   align-items: center;
   gap: 40px;
@@ -213,10 +205,9 @@ display: flex;
 
 .aside-Habilidades{
     /* background-color: gold; */
-    padding-top: 50px;
-    padding-bottom: 20px;
-    padding-left: 30px; 
-    padding-right: 30px;
+    padding-top: 60px;
+    
+   
 }
 
 .h1-Habilidades , .h1-proyecto{
@@ -238,15 +229,45 @@ display: flex;
     flex-basis: 200;
 }
 
+.nav-Habilidades{
+    background: linear-gradient(to right,#FFFFFF , #F5B7B1, #883333);
+border-radius: 30px;
+display: flex;
+  flex-wrap: wrap;       
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+    
+  
+    
+    padding-left: 30px; 
+    padding-right: 30px;
+}
+
 .aside-proyectos{
     /* background-color: aqua; */
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    
+}
+
+.nav-proyectos{
+    background: linear-gradient(to right,#FFFFFF , #F5B7B1, #883333);
+border-radius: 30px;
+display: flex;
+  flex-wrap: wrap;       
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+    
+  
+    
+    padding-left: 30px; 
+    padding-right: 30px;
 }
 
 .footer{
     /* background-color: rgb(198, 119, 21); */
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 20px;
 }
 
